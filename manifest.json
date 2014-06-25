@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "Timestamp Conversion",
+  "description": "This extension converts timestamp to human-readable date format.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
