@@ -13,8 +13,7 @@
 	"content_scripts": [
 		{
 			"matches": ["http://wwww.google.com/*"],
-			"js": ["assets/script.js"],
-			"css": ["assets/style.css"]
+			"js": ["assets/script.js"]
 		}
 	]
 }
