@@ -2,9 +2,10 @@
 <html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
 	<head>
 		<link href="assets/style.css" type="text/stylesheet">
+		<script type="text/javascript" src="assets/jquery.min.js"></script>
 		<script type="text/javascript" src="assets/script.js"></script>
 		<style>
-			body{width:500px;background:orange;}
+			body{width:500px;background:white;}
 			.title{text-align:center;}
 			#timetamp{padding:5px;font-size:18px;width:400px;}
 			#convert1{padding:5px;font-size:20px;}
@@ -15,9 +16,14 @@
 	<body>
 		<h1 class="title">Timestamp Conversion</h1>
 		<div class="content">
-			<input type="text" name="timestamp" id="timetamp" placeholder="Enter timestamp"/><br>
+			<select>
+				<option val="white">White</option>
+				<option val="orange">Orange</option>
+				<option val="cyan">Cyan</option>
+			</select>
+			<input type="text" name="timestamp" id="timetamp" placeholder="Enter timestamp" autofocus/><br>
 			<input type="button" value="Convert" id="convert1"/><br>
-			<input type="text" name="date-format" id="date-format" disabled/><br><br><br>
+			<input type="text" name="date-format" id="date-format" readonly="readonly"/><br><br><br>
 		</div>
 	</body>
 </html>
