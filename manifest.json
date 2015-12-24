@@ -1,20 +1,18 @@
 {
 	"manifest_version": 2,
 	
-	"name": "Timestamp Conversion",
-	"description": "This extension converts timestamp to human-readable date format.",
-	"version": "1.0",
+	"name": "Timestamp Converter",
+	"description": "This is the most minimal extension converts timestamp to human-readable date format.",
+	"version": "1.0.2",
 	
 	"browser_action": {
-		"default_icon": "assets/icon-19.png",
-		"default_popup": "main.html"
+		"default_icon": "assets/icon-16.png",
+		"default_popup": "main.html",
+		"default_title": "Convert a timestamp"
 	},
 	
-	"icons":  {
-		"48": "assets/icon-48.png",
-		"128": "assets/icon-128.png"
-	},
-	
+    "update_url": "http://clients2.google.com/service/update2/crx",
+
 	"content_scripts": [
 		{
 			"matches": ["http://wwww.google.com/*"],
