@@ -8,22 +8,29 @@
 			body{width:500px;background:white;}
 			.title{text-align:center;}
 			#timetamp{padding:5px;font-size:18px;width:400px;}
-			#convert1{padding:5px;font-size:20px;}
+			#convert1{padding:5px;font-size:20px;margin:2%;}
 			#date-format{padding:5px;font-size:18px;width:400px;}
-			.content{margin:5% 5%;}
+			.content{margin:5% 5%; text-align:center;}
+			footer{text-align: center;}
+			#colorselect{margin:-1% 0 5% 0;}
 		</style>
 	</head>
 	<body>
 		<h1 class="title">Timestamp Conversion</h1>
 		<div class="content">
-			<select>
-				<option val="white">White</option>
-				<option val="orange">Orange</option>
-				<option val="cyan">Cyan</option>
-			</select>
-			<input type="text" name="timestamp" id="timetamp" placeholder="Enter timestamp" autofocus/><br>
+			<select id="colorselect">
+				<option value="white">White</option>
+				<option value="grey">Grey</option>
+				<option value="black">Black</option>
+				<option value="orange">Orange</option>
+				<option value="cyan">Cyan</option>
+			</select><br>
+			<input type="text" name="timestamp" id="timetamp" placeholder="Enter timestamp and hit Enter" autofocus/><br>
 			<input type="button" value="Convert" id="convert1"/><br>
 			<input type="text" name="date-format" id="date-format" readonly="readonly"/><br><br><br>
 		</div>
+		<footer>
+			Developed by <a href="http://sahildua.com" target="_blank">Sahil Dua</a>
+		</footer>
 	</body>
 </html>
