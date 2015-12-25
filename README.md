@@ -10,4 +10,4 @@ A small chrome extension for real-time simple and easy conversion of timestamp t
 
 ## Contact
 
-For any queries or suggestions, feel free to contact us [Sahil Dua](http://www.sahildua.com) and [Prabhakar Gupta](http://www.prabhakargupta.com)
+For any queries or suggestions, feel free to contact us [Sahil Dua](http://sahildua.com) and [Prabhakar Gupta](http://www.prabhakargupta.com)
