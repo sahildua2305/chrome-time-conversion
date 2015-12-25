@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+
+body {
+	width:500px;
+	background:white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.title {
+	text-align:center;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+button#convert1 {
+	margin: 10px;
+}
+
+.content {
+	margin:5% 5%; 
+	text-align:center;
+}
+
+footer {
+	text-align: center;
+	color: black;
+	background-color: #D4D4D4;
+	padding: 4px 0;
+}
+
+.github-image {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 20%;
+}
+
+#colorselect{
+	width: 20%;
+    position: fixed;
+    top: 2%;
+    left: 1%;
+}
