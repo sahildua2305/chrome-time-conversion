@@ -4,33 +4,24 @@
 		<link href="assets/style.css" type="text/stylesheet">
 		<script type="text/javascript" src="assets/jquery.min.js"></script>
 		<script type="text/javascript" src="assets/script.js"></script>
-		<style>
-			body{width:500px;background:white;}
-			.title{text-align:center;}
-			#timetamp{padding:5px;font-size:18px;width:400px;}
-			#convert1{padding:5px;font-size:20px;margin:2%;}
-			#date-format{padding:5px;font-size:18px;width:400px;}
-			.content{margin:5% 5%; text-align:center;}
-			footer{text-align: center;}
-			#colorselect{margin:-1% 0 5% 0;}
-		</style>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/custom.css">
 	</head>
 	<body>
 		<h1 class="title">Timestamp Converter</h1>
+
 		<div class="content">
-			<select id="colorselect">
-				<option value="white">White</option>
-				<option value="grey">Grey</option>
-				<option value="black">Black</option>
-				<option value="orange">Orange</option>
-				<option value="cyan">Cyan</option>
-			</select><br>
-			<input type="text" name="timestamp" id="timetamp" placeholder="Enter timestamp and hit enter.." autofocus/><br>
-			<input type="button" value="Convert" id="convert1"/><br>
-			<input type="text" name="date-format" id="date-format" readonly="readonly"/><br><br><br>
+			<input class="form-control" id="timetamp" placeholder="Enter Timestamp here" autofocus/>
+
+			<button class="btn btn-default" type="submit" id="convert1">Convert</button>
+			
+			<input class="form-control" id="date-format" placeholder="Enter Date here" />
 		</div>
+		
 		<footer>
-			Developed by <a href="http://sahildua.com" target="_blank">Sahil Dua</a> | <a href="https://github.com/sahildua2305/chrome-time-conversion" target="_blank">Contribute</a>
+			Developed by <a href="http://sahildua.com" target="_blank">Sahil Dua</a> and <a href="http://www.prabhakargupta.com" target="_blank">Prabhakar Gupta</a>
+			<br>
+			<!-- <a href="https://github.com/sahildua2305/chrome-time-conversion" target="_blank">Contribute</a> -->
 		</footer>
 	</body>
 </html>
