@@ -34,3 +34,10 @@ footer {
 	right: 0;
 	width: 20%;
 }
+
+#colorselect{
+	width: 20%;
+    position: fixed;
+    top: 2%;
+    left: 1%;
+}
