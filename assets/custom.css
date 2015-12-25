@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+
 body {
 	width:500px;
 	background:white;
+	font-family: 'Roboto', sans-serif;
 }
 
 .title {
